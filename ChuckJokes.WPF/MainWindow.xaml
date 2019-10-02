@@ -1,0 +1,14 @@
+﻿<Window x:Class="ChuckJokes.WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ChuckJokes.WPF"
+        mc:Ignorable="d"
+        Tle="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="268,0,0,0" VerticalAlignment="Center" Height="45" Width="78" Click="Button_Click"/>
+        <TextBox x:Name="TextJoke" HorizontalAlignment="Left" Margin="351,0,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Center" Width="223" Height="44" TextChanged="TextJoke_TextChanged"/>
+           
+    </Grid>
+</Window>
